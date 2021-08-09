@@ -17,6 +17,8 @@ img {
     padding: 0;
 }
 
+/* Hero section */
+
 nav {
     display: none;
 }
@@ -41,12 +43,12 @@ nav {
 }
 
 .hero-title,
-.brand-title,
+.section-title,
 .btn {
     font-family: 'Fraunces', sans-serif;
 }
 
-.brand-p {
+.section-p {
     font-family: 'Barlow', sans-serif;
 }
 
@@ -63,29 +65,28 @@ nav {
     margin: 3.8em auto;
 }
 
+/* brand section */
+
 .brand {
     background-color: hsl(26, 100%, 99%);
     text-align: center;
 }
 
-.brand-info {
-    font-size: 1.8rem;
-    margin: 0 auto;
-}
 
-.brand-title {
+.section-title {
     font-size: 3.5rem;
     font-weight: 900;
     color: hsl(210, 31%, 20%);
     padding-top: 5rem;
 }
 
-.brand-p {
+.section-p{
     color: hsl(240, 4%, 53%);
     line-height: 1.5;
     font-weight: 600;
     margin: 2em auto;
     width: 90%;
+    font-size: 1.8rem;
 }
 
 .btn {
@@ -127,3 +128,28 @@ a:visited {
     color: hsl(228, 45%, 44%);
 }
 
+/* services section */
+
+.services{
+    text-align: center;
+}
+.service-items{
+    position: relative;
+}
+
+.service-items-info{
+    position: absolute;
+    top: 65%;
+}
+
+.services-p, .services-title{
+    color: hsl(166, 44%, 24%);
+}
+
+.services-p, .photography-services-p{
+    width: 80%;
+}
+
+.photography-services-title, .photography-services-p{
+    color: hsl(202, 52%, 28%);
+}
