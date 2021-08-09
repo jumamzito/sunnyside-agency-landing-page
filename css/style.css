@@ -139,7 +139,8 @@ a:visited {
 
 .service-items-info{
     position: absolute;
-    top: 65%;
+    top: 53%;
+    max-width: 100%;
 }
 
 .services-p, .services-title{
