@@ -44,6 +44,7 @@ nav {
 
 .hero-title,
 .section-title,
+.testimonials-title,
 .btn {
     font-family: 'Fraunces', sans-serif;
 }
@@ -154,3 +155,26 @@ a:visited {
 .photography-services-title, .photography-services-p{
     color: hsl(202, 52%, 28%);
 }
+
+/* Client testimonials */
+
+.testimonials{
+    background-color: hsl(26, 100%, 99%);
+}
+
+.testimonials-title{
+    text-align: center;
+    color: hsl(210, 4%, 67%);
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 3em 0;
+}
+
+.client-img{
+    margin: 0 auto 2.5em auto;
+    border-radius: 50%;
+    width: 70px;
+}
+
+
+
