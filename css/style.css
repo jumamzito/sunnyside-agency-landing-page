@@ -205,6 +205,9 @@ a:visited {
     font-weight: 700;
     color: hsl(210, 4%, 65%);
 }
+.gallery-row{
+    display: flex;
+}
 
 
 
