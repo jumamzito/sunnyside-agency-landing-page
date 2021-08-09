@@ -45,11 +45,14 @@ nav {
 .hero-title,
 .section-title,
 .testimonials-title,
+.cliet-name,
 .btn {
     font-family: 'Fraunces', sans-serif;
 }
 
-.section-p {
+.section-p,
+.client-testimony,
+.client-position {
     font-family: 'Barlow', sans-serif;
 }
 
@@ -160,8 +163,13 @@ a:visited {
 
 .testimonials{
     background-color: hsl(26, 100%, 99%);
+    padding-top: 2em;
+    text-align: center;
 }
 
+.client-card + .client-card{
+    margin-top: 5em;
+}
 .testimonials-title{
     text-align: center;
     color: hsl(210, 4%, 67%);
@@ -174,6 +182,28 @@ a:visited {
     margin: 0 auto 2.5em auto;
     border-radius: 50%;
     width: 70px;
+}
+
+.client-testimony{
+    font-size: 1.8em;
+    font-weight: 600;
+    color: hsl(223, 4%, 35%);
+    line-height: 1.5;
+    width: 90%;
+    margin: 0 auto 3em auto;
+}
+
+.cliet-name{
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #212121;
+    margin-bottom: 0.8em;
+}
+
+.client-position{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(210, 4%, 65%);
 }
 
 
