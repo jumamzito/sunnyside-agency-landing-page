@@ -27,7 +27,7 @@ nav {
     position: relative;
 }
 
-.logo {
+.wrapper {
     position: absolute;
     top: 0;
     margin: 2em 0 2em 2em;
@@ -52,7 +52,8 @@ nav {
 
 .section-p,
 .client-testimony,
-.client-position {
+.client-position,
+.footer-title {
     font-family: 'Barlow', sans-serif;
 }
 
@@ -165,6 +166,7 @@ a:visited {
     background-color: hsl(26, 100%, 99%);
     padding-top: 2em;
     text-align: center;
+    padding-bottom: 8em;
 }
 
 .client-card + .client-card{
@@ -205,9 +207,125 @@ a:visited {
     font-weight: 700;
     color: hsl(210, 4%, 65%);
 }
+
+/* gallery */
+
 .gallery-row{
     display: flex;
 }
 
+/* footer */
+.footer{
+    background-color: hsl(167, 51%, 70%);
+    padding: 0.5em 0 10em 0;
+    text-align: center;
+}
+
+.footer-title{
+    margin: 1.8em auto;
+    color: hsl(165, 44%, 24%);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.footer-ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 8em auto;
+}
+
+
+.footer-ul li{
+    flex-grow: 1;
+}
+
+.footer-ul a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Barlow', sans-serif;
+}
+.footer a:visited,
+.footer a:link{
+    color: hsl(167, 34%, 39%)
+}
+
+/* Social icons */
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (min-width: 750px) {
+
+    .container{
+        max-width: 1440px;
+    }
+    .row{
+        flex-direction: row;
+    }
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        align-items: center;
+    }
+
+    .nav{
+        display: block;
+
+    }
+    .nav-list{
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        width: 100%;
+        font-family: 'Barlow', sans-serif;
+        align-items: center;
+
+    }
+
+    .nav-list a{
+        text-decoration: none;
+        color:#fff;
+        font-size: 1.3rem;
+    }
+
+    .nav-items + .nav-items{
+        margin-left: 3em;
+    }
+   .nav-btn{
+       font-family: 'Fraunces', sans-serif;
+       text-transform: uppercase;
+       background-color: #fff;
+       padding: 1.2em 2em;
+       border: none;
+       border-radius: 100px;
+
+   }
+   .nav-btn a{
+        color: black;
+        font-size: 1rem;
+   }
+   .hero-message {
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+    }
+
+    .hero-title{
+        width: 100%;
+    }
+    .hero-arrow {
+        width: 2rem;
+        margin: 3.8em auto;
+    }
+
+}
 
 
