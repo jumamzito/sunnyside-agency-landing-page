@@ -212,6 +212,10 @@ a:visited {
 
 .gallery-row{
     display: flex;
+    flex-wrap: wrap;
+}
+.image-column{
+    flex-basis: 50%;
 }
 
 /* footer */
@@ -383,5 +387,8 @@ a:visited {
     }
     .testimonials{
         padding: 15em 0;
+    }
+    .image-column{
+        flex-wrap: nowrap;
     }
 }
