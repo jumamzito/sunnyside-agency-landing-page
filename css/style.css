@@ -264,7 +264,7 @@ a:visited {
 
     .container{
         max-width: 1440px;
-        margin: 0 auto;
+        margin: 2em 0 2em 2em;
     }
     .row{
         flex-direction: row;
