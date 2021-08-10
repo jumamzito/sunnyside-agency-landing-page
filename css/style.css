@@ -53,7 +53,8 @@ nav {
 .section-p,
 .client-testimony,
 .client-position,
-.footer-title {
+.footer-title,
+.attribution {
     font-family: 'Barlow', sans-serif;
 }
 
@@ -122,15 +123,6 @@ a:visited {
 .row-1 {
     display: flex;
     flex-direction: column-reverse;
-}
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
 }
 
 /* services section */
@@ -240,8 +232,9 @@ a:visited {
 }
 
 
-.footer-ul li{
-    flex-grow: 1;
+.footer-link + .footer-link{
+    /* flex-grow: 1; */
+    margin-left: 4em;
 }
 
 .footer-ul a{
@@ -262,6 +255,10 @@ a:visited {
     width: 180px;
     margin: 0 auto;
     text-align: center;
+}
+.attribution{
+    color: hsl(165, 44%, 24%);
+    margin-top: 8em;
 }
 
 @media (min-width: 750px) {
