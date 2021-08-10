@@ -262,12 +262,6 @@ a:visited {
 
 @media (min-width: 750px) {
 
-    .container{
-        max-width: 1440px;
-        border: 1px solid red;
-        margin: 0 auto;
-
-    }
     .row{
         flex-direction: row;
     }
@@ -277,7 +271,6 @@ a:visited {
         justify-content: space-between;
         width: 95%;
         align-items: center;
-        max-width: 1440px;
     }
 
     .nav{
