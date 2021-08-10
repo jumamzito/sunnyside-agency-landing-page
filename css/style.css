@@ -334,25 +334,50 @@ a:visited {
 
     .brand-info{
         text-align: left;
+        position: relative;
         
     }
     .transform-text{
+        position: absolute;
         margin: 0 auto;
         width: 70%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         padding: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
     }
     .brand-info .section-p{
         margin:1.5em 0;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         padding: 0;
     }
 
     .brand-info .section-title{
         width:70% ;
+        padding-top: 0;
     }
 
-
+    .services-row{
+        display: flex;
+    }
+    .services-p{
+        width: 60%;
+    }
+    .photography-services-p{
+        width: 55%;
+    }
+    .testimonials-row{
+        display: flex;
+        align-items: center;
+    }
+    .client-card + .client-card{
+        margin-top: 0;
+    }
+    .client-testimony{
+        width: 75%;
+    }
+    .testimonials{
+        padding: 15em 0;
+    }
 }
-
-
