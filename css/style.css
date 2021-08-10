@@ -261,6 +261,10 @@ a:visited {
 }
 
 @media (min-width: 750px) {
+    .container{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
 
     .row-1{
         flex-direction: row;
