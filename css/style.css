@@ -388,7 +388,7 @@ a:visited {
     .testimonials{
         padding: 15em 0;
     }
-    .image-column{
+    .gallery-row{
         flex-wrap: nowrap;
     }
 }
